@@ -22,6 +22,9 @@ After successful execution of hadoop jobs, the output statistics can be viewed i
 hdfs dfs -cat /users-cloud-16fs/ulichitr/project03-out/output2/part-00000
 
 maximum_subject	History
+
 minimum_subject	{Plants
+
 count_median	1
+
 count_average	34

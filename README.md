@@ -16,6 +16,12 @@ Then run the below command on hadoop cluster by making small modifications in  o
 
  hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar -input /data/openlibrary/ol_dump_works_latest-20161202.txt -output /users-cloud-16fs/ulichitr/project03-out/output2 -mapper ~/project03/mapper.py -reducer ~/project03/reducer.py -file ~/project03/{mapper,reducer}.py
 
+##Output
 After successful execution of hadoop jobs, the output statistics can be viewed in hdfs using below command
 
 hdfs dfs -cat /users-cloud-16fs/ulichitr/project03-out/output2/part-00000
+
+maximum_subject	History
+minimum_subject	{Plants
+count_median	1
+count_average	34
